@@ -1,4 +1,5 @@
 node_modules
+install.md
 .DS_store
 .txt
 .env

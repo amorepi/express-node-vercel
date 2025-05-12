@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 5500;
 
 app.get('/', (req, res) => {
-    res.send(`Hello World! - Node Version: ${process.version} - datatime: ${new Date().toLocaleString('it-IT', {timeZone: 'Europe/Rome', hour12: false})}`);
+    res.send(`Hello World! Ciao a tutti - Node Versione: ${process.version} - datatime: ${new Date().toLocaleString('it-IT', {timeZone: 'Europe/Rome', hour12: false})}`);
 });
 
 app.listen(port, () => {

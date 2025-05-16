@@ -4,7 +4,12 @@ const app = express();
 const port = process.env.PORT || 5500;
 
 app.get('/', (req, res) => {
-    res.send(`Hello World! Ciao a tutti - Node Versione: ${process.version} - datatime: ${new Date().toLocaleString('it-IT', {timeZone: 'Europe/Rome', hour12: false})}`);
+    res.send(`<p>url: <a href="https://ingamore.net">ingamore.net</a></p>\
+              <p>url: <a href="https://www.ingamore.net">www.ingamore.net</a></p>\
+              <p>Hello World! Ciao a tutti</p>\
+              <p>Node Versione: ${process.version}</p>\
+              <p>datatime: ${new Date().toLocaleString('it-IT', {timeZone: 'Europe/Rome', hour12: false})}</p>\
+              `);
 });
 
 app.listen(port, () => {

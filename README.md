@@ -1,3 +1,1 @@
-# express-node-vercel project
-
-## Ok
+# express-node-vercel
